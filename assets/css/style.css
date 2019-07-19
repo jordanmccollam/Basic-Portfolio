@@ -1,0 +1,120 @@
+body {
+    background: url(http://www.premiumpixels.com/wp-content/uploads/2012/03/preview3.jpg);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* Styles for the header / nav bar */
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#nav-header {
+    background: white;
+    border-bottom: 2px solid #cccccc;
+}
+
+#nav-header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav a:hover {
+    color: #4aaaa5;
+}
+
+#logo {
+    float: left;
+    background: #4aaaa5;
+    padding: 30px 30px;
+    margin: 0;
+}
+
+#logo a {
+    color: white;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#nav-header a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 0px;
+    padding-top: 30px;
+}
+
+nav a {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 0px 20px;
+}
+
+#portfolio-link a {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+
+/* The actual body and content of the page */
+#bio-image {
+    width: 200px;
+    margin-right: 20px;
+    float: left;
+}
+
+#header-about {
+    border-bottom: 3px solid #cccccc;
+    padding-bottom: 3px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #4aaaa5;
+}
+
+#about-me {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0px 30px 30px 30px;
+    background-color: white;
+}
+
+
+/* The footer */
+footer {
+    background: #666666;
+    color: #c5c5c5;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 40px;
+    border-top: #4aaaa5 4px solid;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
